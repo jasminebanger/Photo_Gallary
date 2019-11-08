@@ -1,0 +1,133 @@
+body{
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side{
+    display: flex;
+}
+.nav > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+}
+
+.name{
+    font-size: 19px;
+}
+
+.link{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    
+}
+.link a{
+    color:#8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+    font-size: 18px;
+}
+
+.link:hover{
+    border-bottom: 1px solid black;
+    
+}
+
+.link a:hover{
+    color: black;
+}
+.active-nav-link{
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a{
+    color: black !important; 
+}
+
+
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.portfolio-item{
+    position: relative;
+}
+.port-img{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-text{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.logo img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.img-text .subtile{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text:hover .subtile{
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+/* about page */
+
+.two-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image{
+    width: 100%;
+    padding-left: 37px;
+}
+
+.profile-content{
+    padding: 30px 30px;
+}
+
+.profile-content h1{
+    color: lightseagreen;
+}
+
+
+
+
+
+
+
+
+
+
