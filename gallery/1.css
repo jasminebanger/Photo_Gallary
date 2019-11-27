@@ -122,7 +122,14 @@ body{
     color: lightseagreen;
 }
 
-
+/***** back to home button in p2.html *****/
+#back{
+    text-decoration: none;
+    color: seagreen;
+    font-size: 18px;
+    border: solid 1px none;
+    border-radius: 3px;
+}
 
 
 
