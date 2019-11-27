@@ -129,12 +129,13 @@ body{
     font-size: 18px;
     border: solid 1px none;
     border-radius: 3px;
+    padding: 4px 6px;
+    background-color:lightskyblue;
+    color: black;
+    text-decoration: none;
 }
 
-
-
-
-
-
-
-
+#back:hover{
+    color: white;
+    background-color: lightseagreen;
+}
